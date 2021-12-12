@@ -7,6 +7,7 @@ h2 {
 }
 p {
   text-align: center;
+  color: #2bb2bb;
 }
 img {
   display: block;
@@ -21,10 +22,17 @@ span {
 footer {
   text-align: center;
 }
-#temperature {
+ul {
+  color: #2dd2bd;
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+}
+.float-left {
   color: #2bb2bb;
   font-size: 74px;
-  font-weight: 400;
+  font-weight: 200;
+  text-align: center;
 }
 .col-12 {
   text-align: center;
@@ -35,4 +43,16 @@ footer {
   padding: 20px;
   border: 3px solid #1dd3bd;
   border-radius: 10px;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+#wind {
+  font-size: 20px;
+  font-weight: 100;
+  color: #2dd2bd;
 }
